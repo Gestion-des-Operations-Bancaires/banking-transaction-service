@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/api/transaction")
+@RequestMapping("/transaction")
 @CrossOrigin(origins = "*")
 public class TransactionController {
 
